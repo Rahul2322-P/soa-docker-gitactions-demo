@@ -24,6 +24,10 @@ services:
     networks:
       - springboot-postgres-net
 
+
+
+
+
   frontend:
     image: rahul8352/docker-git-actions-frontend:latest
     container_name: docker-react
