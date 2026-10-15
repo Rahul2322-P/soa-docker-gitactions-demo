@@ -22,7 +22,7 @@ public class StudentController {
     @GetMapping("/")
     public String home() 
     {
-        return " SOA Docker Full Stack Deployment Demo";
+        return "SOA Docker Full Stack Deployment Demo";
     }
     
 
